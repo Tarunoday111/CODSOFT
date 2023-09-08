@@ -1,0 +1,177 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+	font-family: Century;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/back.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+	min-height:100px;
+	margin-bottom:30px;
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:30px;
+	min-height:400px;
+	margin-right:30px;
+	font_size:17px;
+}
+
+ul li{
+	display:inline-block;
+}
+
+ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.5 ease;
+}
+
+ul li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color:#fff;
+	color:#000;
+}
+
+.logo img{
+  float:left;
+  width:150px;
+  height:auto;
+  border-radius:100px;
+}
+
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+
+.title{
+	position:absolute;
+	top:53%;
+	left:69%;
+	transform:translate(-50%,-50%);
+}
+
+.title h1{
+	color:#fff;
+	font-size:70px;
+}
+.title h2{
+	color:#5C4033;
+	font-size:30px;
+}
+
+.button{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.btn{
+	border:1px solid #fff;
+	padding:5px 20px;
+	color:#fff;
+	transition:0.5 ease;
+	font-size:18px;
+	text-decoration:none;
+}
+
+.btn:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+.about h1{
+	color:#5C4033;
+	font-size:40px;
+    text-align:center;
+}
+
+.about{
+	margin:30px;
+}
+
+.about p{
+	border:1px solid #5C4033;
+	border-radius:30px;
+	padding:30px 30px;
+	background-color:;
+}
+
+.services{
+	display: flex;
+    justify-content: space-between;
+	align-items:center
+}
+
+.h{
+    color:#5C4033;
+	font-size:40px;
+    text-align:center;
+	padding:10px;
+}
+
+.item{
+	border-radius:10px;
+	padding:30px 30px;
+	font-size:20px;
+	text-align:center;
+	display: grid;
+    flex-basis: 48%;        
+    margin: 20px;
+	border:1px #5C4033;
+}
+
+.item:hover{
+	background-color:#5C4033;
+	
+}
+
+.item h3{
+	padding:10px;
+}
+
+.item img{
+	max-width: 200px;
+    height: auto;
+	margin: 0 auto;
+}
+
+.contact{
+	opacity:0.4;
+	position:absolute;
+	left:0;
+	height:80%;
+	width:100%;
+	
+}
+
+
+.f{
+	margin:30px;
+	padding:30px;
+	text-align:center;
+	font-size:30px;
+}
+
+.fp{
+	border:1px solid #5C4033;
+	border-radius:30px;
+	padding:30px 30px;
+	text-align:center;
+	margin:100px;
+	font_size:80px;
+	color:#000;
+}
