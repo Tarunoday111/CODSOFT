@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7c3d00ab2.js" crossorigin="anonymous"></script>
+    <title>Panday Tarunoday Prasad</title>
+</head>
+<body>
+<div class="scroll-container">
+
+
+ <header id="header">
+   <div class="container scroll-item">
+     <nav>
+       <h2><a href=index.html>Panday <span> Tarunoday </span>Prasad</a></h2>
+       <ul>
+         <li class="item"><a href=#header>Home</a></li>
+         <li class="item"><a href=#about>About</a></li>
+         <li class="item"><a href=#services>Services</a></li>
+         <li class="item"><a href=#portfolio>Projects</a></li>
+         <li class="item"><a href=#contact>Contact</a></li>
+       </ul>
+     </nav>
+     <div class="header-text">
+       <p>Web Developer</p>
+       <h1>Hi,I'm<span> Tarun</span> </br> from India</p>
+     </div>
+   </div>
+ </header>
+
+
+ <div id="about" class="about scroll-item">
+   <div class="container1">
+     <div class="row">
+       <div class="about-col-1">
+         <img src="profile.jpg">
+       </div>
+       <div class="about-col-2">
+         <h1><span>About</span> me</h1>
+         <p>Hello there! I'm Tarun, a dedicated student with a dual major in Computer Science and Design, and a strong passion for web development. I believe in the power of the web to connect people, share ideas, and bring innovation to life. As a computer science and design enthusiast, I'm on a mission to create web experiences that are not only functional but also visually captivating.</p>
+         <div class="tab-titles">
+           <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+           <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+           <p class="tab-links" onclick="opentab('education')">Education</p>
+         </div>
+         <div class="tab-contents active-tab" id="skills">
+           <ul>
+             <li><span>Web Dev</span><br>Web Development using <span1>HTML</span1>,<span1>CSS</span1>,<span1>JAVASCRIPT</span1></li>
+             <li><span>App Dev</span><br>Application Development using <span1>IONIC</span1> </li>
+             <li><span>S/W Dev</span><br>Software Development using <span1>JAVA</span1> </li>
+           </ul>
+         </div>
+         <div class="tab-contents" id="certifications">
+           <ul>
+             <li><span>Google Certifications</span><br>Digital Marketing Certifications</li>
+             <li><span>Cisco Netacad</span><br>Networking and security certification</li>
+           </ul>
+         </div>
+         <div class="tab-contents" id="education">
+           <ul>
+             <li><span>2022-Present</span><br>Bachelor's degree in Computer Science & Design</li>
+             <li><span>2019-2022</span><br>Diploma in Computer Engineering</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+
+ <div id="services" class="services scroll-item">
+   <div class="container">
+     <h1>My <span>Services</span></h1>
+     <div class="services-list">
+       <div>
+         <h2><i class="fa-solid fa-code"></i> Web developer</h2>
+         <p>Develop a responsive and efficient Websites for your organisation.</p>
+       </div>
+       <div>
+         <h2><i class="fa-solid fa-mobile"></i> App developer</h2>
+         <p>Develop a responsive and efficient App for your organisation.</p>
+       </div>
+       <div>
+         <h2><i class="fa-brands fa-java"></i> Software developer</h2>
+         <p>Develop a responsive and efficient Software for your organisation.</p>
+       </div>
+     </div>
+   </div>
+  </div>
+
+
+  <div id="portfolio" class="portfolio scroll-item">
+    <div class="container">
+      <h1>My <span>Work</span></h1>
+       <div class="work-list">
+         <div class="work">
+           <img src="work-1.png">
+           <div class="layer">
+             <h2>Sweet store</h2>
+             <p>A static website design for a local sweets and bakery store using html,css.</p>
+             <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+         </div>
+         <div class="work">
+           <img src="work-2.png">
+           <div class="layer">
+             <h2>Portfolio App</h2>
+             <p>A portfolio App design for mobile using ionic,html,css.</p>
+             <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+         </div>
+         <div class="work">
+           <img src="work-3.png">
+           <div class="layer">
+             <h2>banking application</h2>
+             <p>A working banking system using java and mysql.</p>
+             <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+         </div>
+       </div>
+      
+    </div>
+  </div>
+
+
+
+
+  <div id="contact" class="contact scroll-item">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1>Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> udaytarun668@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +91 8985100437</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class=copyright>
+     Copyright  All rights reserved by @Tarunoday Prasad
+    </div>
+</div>
+
+
+
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+  for(tablink of tablinks){
+  tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+  tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+</body>
+</html>
