@@ -411,12 +411,8 @@ form .btn2{
     margin-right: 50px;
   }
 	header{
-	width:100%;
-	height:100vh;
 	background-image: url(Mob bg.PNG);
-    background-position: center;
-    background-size: cover;
-}
+         }
 }
 
 @media screen and (max-width: 576px) {
@@ -428,10 +424,6 @@ form .btn2{
     padding: 50px 5%;
   }
 	header{
-	width:100%;
-	height:100vh;
 	background-image: url(Mob bg.PNG);
-    background-position: center;
-    background-size: cover;
-}
+         }
 }
