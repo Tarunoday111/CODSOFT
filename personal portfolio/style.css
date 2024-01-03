@@ -106,7 +106,6 @@ nav ul li a:hover::after{
 	justify-content:space-between;
 	flex-wrap:wrap;
 	align-items:center;
-	margin-left: 100px;
 }
 
 .about-col-1{
