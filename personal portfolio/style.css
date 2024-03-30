@@ -480,29 +480,35 @@ form .btn2{
 	font-weight:300;
 	margin-top:20px;
 }
-
 @media screen and (max-width: 768px) {
-  nav ul {
-    padding-left: 0;
-  }
+    nav ul {
+        padding-left: 0;
+    }
 
-  .tab-titles p {
-    margin-right: 50px;
-  }
-	header{
-	background-image: url(Mob bg.PNG);
-         }
+    .tab-titles {
+        overflow-x: auto;
+        padding-bottom: 10px; /* Add padding bottom to ensure the horizontal scroll is visible */
+    }
+
+    .tab-titles p {
+        margin-right: 20px;
+    }
+
+    header {
+        background-image: url(Mob bg.PNG);
+    }
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    padding: 50px 5%;
-  }
+    .container {
+        padding: 50px 5%;
+    }
 
-  .row {
-    padding: 50px 5%;
-  }
-	header{
-	background-image: url(Mob bg.PNG);
-         }
+    .row {
+        padding: 50px 5%;
+    }
+
+    header {
+        background-image: url(Mob bg.PNG);
+    }
 }
