@@ -509,10 +509,7 @@ form .btn2 {
         background-image: url(Mob bg.PNG);
     }
 
-    .work-list {
-        grid-template-columns: 1fr; /* Change to one column layout */
-        justify-content: center; /* Center align the grid */
-    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -535,10 +532,5 @@ form .btn2 {
         text-align: center; /* Center align text */
     }
 
-    .work-list {
-        display: grid; /* Display as a grid */
-        grid-template-columns: 1fr; /* Change to one column layout */
-        grid-gap: 40px; /* Add gap between grid items */
-        justify-content: center; /* Center align the grid */
-    }
+    
 }
