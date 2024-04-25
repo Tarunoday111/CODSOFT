@@ -349,6 +349,7 @@ px;
     position: relative;
     overflow: hidden;
     text-align: center; /* Center align the work item */
+    width:fit-content;
 }
 
 .work img {
