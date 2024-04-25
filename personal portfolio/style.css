@@ -112,7 +112,7 @@ nav ul li a:hover::after {
 }
 
 .row {
-    padding: 100px 50px;
+    padding: 100px 375px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
