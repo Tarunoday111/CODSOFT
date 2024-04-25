@@ -338,8 +338,6 @@ nav ul li a:hover::after {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
-
-px;
     margin-top: 50px;
     justify-content: center; /* Center align the grid */
 }
@@ -492,7 +490,7 @@ form .btn2 {
     cursor: pointer;
 }
 
-/* Responsive adjustments */
+/* Media Queries */
 @media screen and (max-width: 768px) {
     nav ul {
         padding-left: 0;
