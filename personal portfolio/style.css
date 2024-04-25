@@ -487,6 +487,7 @@ form .btn2 {
     cursor: pointer;
 }
 
+/* Responsive adjustments */
 @media screen and (max-width: 768px) {
     nav ul {
         padding-left: 0;
@@ -517,5 +518,12 @@ form .btn2 {
 
     header {
         background-image: url(Mob bg.PNG);
+    }
+
+    .header-text {
+        font-size: 30px; /* Decrease font size for smaller screens */
+        margin-top: 50px; /* Decrease margin top */
+        margin-left: 0; /* Remove margin left */
+        text-align: center; /* Center align text */
     }
 }
