@@ -542,6 +542,7 @@ form .btn2 {
     .video .vid {
         max-width: 100%; /* Limit video width to container width */
         height: auto; /* Allow video height to adjust proportionally */
+        border-radius:20px;
     }
 }
 
