@@ -537,7 +537,9 @@ form .btn2 {
     }
 
     .work-list {
+        display: grid; /* Display as a grid */
         grid-template-columns: 1fr; /* Change to one column layout */
+        grid-gap: 40px; /* Add gap between grid items */
         justify-content: center; /* Center align the grid */
     }
 }
