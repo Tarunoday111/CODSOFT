@@ -21,7 +21,7 @@ header {
     width: 100%;
     height: 100vh;
     background-image: url(background.JPEG);
-    background-position: center;
+    background-position: right;
     background-size: cover;
 }
 
@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 .header-text {
     font-size: 40px;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .header-text h1 span {
