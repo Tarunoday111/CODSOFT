@@ -362,7 +362,7 @@ px;
 
 .layer {
     height: 0;
-    width: 100%; /* Modify the width to fill the container */
+    width: fit-content; /* Modify the width to fill the container */
     background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
     border-radius: 10px;
     position: absolute;
