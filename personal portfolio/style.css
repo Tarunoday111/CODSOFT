@@ -338,7 +338,7 @@ nav ul li a:hover::after {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 40
+    grid-gap: 40px;
 
 px;
     margin-top: 50px;
