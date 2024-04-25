@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -337,15 +338,18 @@ nav ul li a:hover::after {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 40
+
+px;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: center; /* Center align the grid */
 }
 
 .work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    text-align: center; /* Center align the work item */
 }
 
 .work img {
