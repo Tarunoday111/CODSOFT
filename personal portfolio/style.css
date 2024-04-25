@@ -561,8 +561,10 @@ form .btn2 {
 
     .btn.btn2,
     form .btn2 {
-        padding: 14px 40px; /* Decrease button padding */
-        font-size: 16px; /* Decrease button font size */
+        padding: 14px 0px; /* Decrease button padding */
+        font-size: 16px;
+        align-items:center;
+        width:fit-content;/* Decrease button font size */
     }
     
 }
