@@ -506,6 +506,11 @@ form .btn2 {
     header {
         background-image: url(Mob bg.PNG);
     }
+
+    .work-list {
+        grid-template-columns: 1fr; /* Change to one column layout */
+        justify-content: center; /* Center align the grid */
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -526,5 +531,10 @@ form .btn2 {
         margin-top: 50px; /* Decrease margin top */
         margin-left: 0; /* Remove margin left */
         text-align: center; /* Center align text */
+    }
+
+    .work-list {
+        grid-template-columns: 1fr; /* Change to one column layout */
+        justify-content: center; /* Center align the grid */
     }
 }
