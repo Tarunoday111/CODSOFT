@@ -535,7 +535,14 @@ form .btn2 {
     form .btn2 {
         width: 100%; /* Make buttons full width */
     }
-    
+
+     .videoContainer {
+        padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+    }
+    .video .vid {
+        max-width: 100%; /* Limit video width to container width */
+        height: auto; /* Allow video height to adjust proportionally */
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -577,5 +584,8 @@ form .btn2 {
         align-items:center;
         width:-webkit-fill-available;/* Decrease button font size */
     }
-    
+
+    .videoContainer {
+        padding-top: 75%; /* Adjust aspect ratio for extra small screens */
+    }
 }
