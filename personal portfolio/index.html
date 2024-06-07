@@ -25,7 +25,7 @@
        </ul>
      </nav>
      <div class="header-text">
-       <p>Web Developer</p>
+       <p id="demo"></p>
        <h1>Hi,I'm<span> Tarun</span> </br> from India</p>
      </div>
    </div>
@@ -315,6 +315,15 @@ var form = document.getElementById('sheetdb-form');
                 alert("Message sent successfully");
             });
         });
+
+const skills=["Web Developer", "UiUx Designer", "Software Developer", "Graphic Designer"];
+            var demo=document.getElementById("demo");
+            let index=0;
+            function display() {
+                demo.innerHTML=skills[index];
+                index=(index+1)%skills.length;
+            }
+            setInterval(display, 1000);
 </script>
 </body>
 </html>
